@@ -32,6 +32,12 @@ const float coordColor[] = {
 	0.0f, 0.0f, 1.0f
 };
 
+// 3차원 좌표에 정사각형 그리는 중; 11.01
+const GLfloat rect[] = {
+	0.5f, 0.5f, 0.0f,
+	-0.5f, 0.5f, 0.0f
+};
+
 //그리기 콜백 함수
 GLvoid Display(GLvoid)
 {
